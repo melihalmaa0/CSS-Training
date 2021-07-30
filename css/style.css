@@ -1,10 +1,9 @@
-h1 {
+#home-h1 {
     font-size: 50px;
-    color: lightseagreen;
+    color: black;
     text-align: center;
     margin-bottom: 10px;
     font-family: "Lucida Console", "Courier New", monospace;
-    background-color: white;
     border-radius: 15px;
     width: 1000px;
     height: 55px;
@@ -14,24 +13,27 @@ h1 {
     padding-bottom: 20px;
 }
 .home {
-    background-color: lightsalmon;
+    border: thick double;
+    border-color: black;
     border-radius: 15px;
     padding: 7px;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 .films {
-    background-color: lightsalmon;
+    border: thick double;
+    border-color: black;
     border-radius: 15px;
     padding: 7px;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 .series {
-    background-color: lightsalmon;
+    border: thick double;
+    border-color: black;
     border-radius: 15px;
     padding: 7px;
     font-family: "Lucida Console", "Courier New", monospace;
 }
-table {
+.table {
     width: 500px;
     height: 20px;
     margin-left: auto;
@@ -63,15 +65,46 @@ table {
 }
 a {
     text-decoration: none; /*linklerin altındaki çizgi kalkar*/
-    color: white;
+    color: black;
 }
-body {
+#home-body {
     margin-top: 200px;
-    background-image: url(img/background.png);
+    background-image: url(/img/bg-2.png);
     float: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
 }
-
-
+#films-body {
+    background-image: url(/img/bg-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#films-h1 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-radius: 15px;
+    width: 1000px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#harrypotter-text {
+    margin-left: 245px; 
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: inline-flex;
+}
+#lotr-text {
+    margin-left: 220px; 
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: inline-flex;
+}
+#nobody-text {
+    margin-left: 230px; 
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: inline-flex;
+}
