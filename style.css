@@ -1,0 +1,77 @@
+h1 {
+    font-size: 50px;
+    color: lightseagreen;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: white;
+    border-radius: 15px;
+    width: 1000px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.home {
+    background-color: lightsalmon;
+    border-radius: 15px;
+    padding: 7px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.films {
+    background-color: lightsalmon;
+    border-radius: 15px;
+    padding: 7px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.series {
+    background-color: lightsalmon;
+    border-radius: 15px;
+    padding: 7px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+table {
+    width: 500px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#search-id {
+    text-align: center;
+    margin-top: 15px;
+}
+#searchbar {
+    width: 300px;
+    height: 28px;
+    text-align: left;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.button {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+    background-color: lightgray;
+}
+.button:hover { /* Butona geldiğinde rengi değişir */
+    background-color: lightsalmon;
+    color: black;
+}
+a {
+    text-decoration: none; /*linklerin altındaki çizgi kalkar*/
+    color: white;
+}
+body {
+    margin-top: 200px;
+    background-image: url(img/background.png);
+    float: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+
