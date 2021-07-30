@@ -93,18 +93,23 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#harrypotter-text {
+#first-image-text {
     margin-left: 245px; 
     font-family: "Lucida Console", "Courier New", monospace;
     display: inline-flex;
 }
-#lotr-text {
+#second-image-text {
     margin-left: 220px; 
     font-family: "Lucida Console", "Courier New", monospace;
     display: inline-flex;
 }
-#nobody-text {
-    margin-left: 230px; 
+#third-image-text {
+    margin-left: 190px; 
     font-family: "Lucida Console", "Courier New", monospace;
     display: inline-flex;
+}
+#series-body {
+    background-image: url(/img/bg-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
